@@ -13,18 +13,18 @@
 """
 百分制成绩转换为等级制成绩
 """
-# sorce = float(input('请输入成绩：'))
-# if sorce >= 90:
-#     grade = 'A'
-# elif sorce >= 80:
-#     grade = 'B'
-# elif sorce >= 70:
-#     grade = 'C'
-# elif sorce >= 60:
-#     grade = 'D'
-# else:
-#     grade = 'E'
-# print('对应的等级是：', grade)
+sorce = float(input('请输入成绩：'))
+if sorce >= 90:
+    grade = 'A'
+elif sorce >= 80:
+    grade = 'B'
+elif sorce >= 70:
+    grade = 'C'
+elif sorce >= 60:
+    grade = 'D'
+else:
+    grade = 'E'
+print('对应的等级是：', grade)
 
 """
 输入三条边长，如果能构成三角形就计算周长和面积
