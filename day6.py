@@ -19,23 +19,23 @@ def main() :
 if __name__ == '__main__':
     main()
 
-# """
-# 在屏幕上显示跑马灯文字
-# """
-# import os
-# import time
+"""
+在屏幕上显示跑马灯文字
+"""
+import os
+import time
 
-# def main():
-#     content = '人生短暂，有价值的人生才有意义。'
-#     color = ['red', 'green', 'yellow', 'grey', 'blue', 'cyan']
-#     i = 0
-#     while True :
-#         os.system('cls')
-#         index = i % len(color) 
-#         print(colored(content, color[index]))
-#         time.sleep(0.2)
-#         content = content[1:] + content[0]
-#         i = i + 1
+def main():
+    content = '人生短暂，有价值的人生才有意义。'
+    color = ['red', 'green', 'yellow', 'grey', 'blue', 'cyan']
+    i = 0
+    while True :
+        os.system('cls')
+        index = i % len(color) 
+        print(colored(content, color[index]))
+        time.sleep(0.2)
+        content = content[1:] + content[0]
+        i = i + 1
 
 # if __name__ == '__main__':
 #     main()
