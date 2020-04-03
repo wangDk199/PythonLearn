@@ -27,10 +27,18 @@ print(set3.pop())
 print(set3)
 #交集、并集、差集、对称运算
 print(set1 & set2)
+#print(set1.instersection(set2))
 print(set1 | set2)
+#print(set1.untion(set2))
 print(set1 - set2)
+#print(set1.difference(set2))
 print(set1 ^ set2)
+
+#判断子集和超集
 print(set2 <= set1)
+#print(set2.issubset(set1))
 print(set3 <= set1)
+#print(set3.issubset(set1))
 print(set1 >= set2)
+#print(set1.issubset(set2))
 print(set1 >= set3)
