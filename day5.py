@@ -2,15 +2,15 @@
 判断传入的文件名是否为图片类型文件
 """
 
-# def picture(file) :
-#     if file.endswith('pang') or file.endswith('jpg') or \
-#         file.endswith('webbp') or file.endswith('bmp') or file.endswith('jpeg'):
-#        print(this_file, '是图片文件')
-#     else:
-#         print(this_file, '不是图片文件')
+def picture(file) :
+    if file.endswith('pang') or file.endswith('jpg') or \
+        file.endswith('webbp') or file.endswith('bmp') or file.endswith('jpeg'):
+       print(this_file, '是图片文件')
+    else:
+        print(this_file, '不是图片文件')
 
-# this_file = input('请输入文件类型：')
-# picture(this_file)
+this_file = input('请输入文件类型：')
+picture(this_file)
 
 """
 设定一个函数，产生指定长度的验证码，验证码有大小写字母和数字组成
